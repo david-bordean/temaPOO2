@@ -1,0 +1,6 @@
+# Format: Nume PretCurent RataDobanzi(%) AniiPanaLaScadenta
+# Exemplu: RoBond2028 100.00 5.5 4
+# Nota: Numele nu poate contine spatii
+RoBond2030 100.00 5.5 4
+EuroBond2031 98.00 3.2 5
+USBond2029 102.00 4.1 3
