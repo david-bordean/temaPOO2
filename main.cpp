@@ -40,9 +40,7 @@ static double citesteDouble(const std::string& prompt = "") {
     }
 }
 
-// ============================================================
 //  MENIU PIATA PUBLICA
-// ============================================================
 
 static void meniuPiataPublica(Piata& piata) {
     int optiune = -1;
@@ -76,9 +74,7 @@ static void meniuPiataPublica(Piata& piata) {
     }
 }
 
-// ============================================================
 //  MENIU PORTOFOLIU
-// ============================================================
 
 static void afiseazaMeniuPortofoliu(const Investitor& inv) {
     std::cout << std::fixed << std::setprecision(2);
@@ -185,9 +181,7 @@ static void meniuPortofoliu(Investitor& inv, Piata& piata) {
     std::cout << "Deconectat din contul '" << inv.getNume() << "'.\n";
 }
 
-// ============================================================
 //  MENIU PRINCIPAL
-// ============================================================
 
 static void afiseazaMeniuPrincipal() {
     std::cout << "\n========== SISTEM INVESTITII ==========\n";
@@ -199,9 +193,7 @@ static void afiseazaMeniuPrincipal() {
     std::cout << "Alegere: ";
 }
 
-// ============================================================
-//  MAIN
-// ============================================================
+
 
 int main() {
     std::srand(static_cast<unsigned>(std::time(nullptr)));
